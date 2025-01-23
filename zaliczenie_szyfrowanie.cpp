@@ -120,7 +120,7 @@ void demonstrateSecuredSystem() {
     for (long long c : encryptedMessage) std::cout << c << " ";
     std::cout << "\n";
 
-    int maxAttempts = 1000;
+    int maxAttempts = 10;
     int attempts = 0;
     for (long long possibleD = 1; possibleD < n; ++possibleD) {
         if (++attempts > maxAttempts) {
